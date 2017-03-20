@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     //variable to keep track of the number of times the button was pressed
     var count = 0
 
+    //this is the label outlet
     @IBOutlet weak var labelText: UILabel!
     
     override func viewDidLoad() {
@@ -25,6 +26,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //an action that updates the label with the number of times the button was pressed
     @IBAction func buttonPressed(_ sender: Any) {
         count += 1
         if count == 1 {
