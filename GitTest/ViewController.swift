@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //variable to keep track of the number of times the button was pressed
     var count = 0
 
     @IBOutlet weak var labelText: UILabel!
